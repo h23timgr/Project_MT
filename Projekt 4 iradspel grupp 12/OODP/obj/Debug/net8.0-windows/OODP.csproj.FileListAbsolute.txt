@@ -1,0 +1,241 @@
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\C#\OODP\OODP\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\Tim\Desktop\OODP Oskar\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\Tim\Desktop\OODP Oskar\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\Tim\Desktop\OODP Oskar\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\Tim\Desktop\OODP Oskar\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\Tim\Desktop\OODP Oskar\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\Tim\Desktop\OODP Oskar\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+D:\Programering\mainline 17.10\OODP\bin\Debug\net8.0-windows\OODP.exe
+D:\Programering\mainline 17.10\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+D:\Programering\mainline 17.10\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+D:\Programering\mainline 17.10\OODP\bin\Debug\net8.0-windows\OODP.dll
+D:\Programering\mainline 17.10\OODP\bin\Debug\net8.0-windows\OODP.pdb
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.dll
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.pdb
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+D:\Programering\mainline 17.10\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\oskar\Desktop\Patric Verison\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\Patric Verison\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\Patric Verison\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\Patric Verison\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Patric Verison\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\Patric Verison\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\Mainline 21.10\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.dll
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+G:\Project OODP\Mainline 21.10 med ljud-20241022T005850Z-001\Mainline 21.10 med ljud\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\Mainline 22.10\Mainline 22.10 1.0\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.csproj.Up2Date
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\Tim\Desktop\Mainline 22.10 AI\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.csproj.Up2Date
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\Tim 28.10 Med Spar och Laddfunktion\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.csproj.Up2Date
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.csproj.Up2Date
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\oskar\Desktop\KLART PROGRAM 4 I RAD1\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.sourcelink.json
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.csproj.CopyComplete
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\tgron\Desktop\Färdig fixa kommentarer och svengelska\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.sourcelink.json
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.csproj.CopyComplete
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\tgron\Desktop\Fixade kommentarer samt svengelskan\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\bin\Debug\net8.0-windows\OODP.exe
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\bin\Debug\net8.0-windows\OODP.deps.json
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\bin\Debug\net8.0-windows\OODP.runtimeconfig.json
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\bin\Debug\net8.0-windows\OODP.dll
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\bin\Debug\net8.0-windows\OODP.pdb
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.csproj.AssemblyReference.cache
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\FourInARow.Form1.resources
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.csproj.GenerateResource.cache
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfoInputs.cache
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.AssemblyInfo.cs
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.csproj.CoreCompileInputs.cache
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.sourcelink.json
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.csproj.CopyComplete
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.dll
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\refint\OODP.dll
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.pdb
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\OODP.genruntimeconfig.cache
+C:\Users\tgron\Desktop\Projekt 4 iradspel grupp 12\OODP\obj\Debug\net8.0-windows\ref\OODP.dll
