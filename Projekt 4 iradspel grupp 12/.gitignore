@@ -1,0 +1,37 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+Project.lock.json
+project.assets.json
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Others
+*.log
+*.cache
+*.pid
+*.sqlite
