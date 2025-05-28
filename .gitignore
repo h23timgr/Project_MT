@@ -24,3 +24,5 @@
 *.cache
 Projekt 4 iradspel grupp 12/OODP/obj/Debug/net8.0-windows/OODP.GeneratedMSBuildEditorConfig.editorconfig
 *.json
+*.db-shm
+*.db-wal
