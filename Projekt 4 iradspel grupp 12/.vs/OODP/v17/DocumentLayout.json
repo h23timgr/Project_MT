@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3AC102-FAEB-45F6-8E4A-5AA9A86830E3}|OODP\\OODP.csproj|c:\\users\\oskar\\documents\\github\\project_mt\\projekt 4 iradspel grupp 12\\oodp\\services\\minimaxai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3AC102-FAEB-45F6-8E4A-5AA9A86830E3}|OODP\\OODP.csproj|solutionrelative:oodp\\services\\minimaxai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3AC102-FAEB-45F6-8E4A-5AA9A86830E3}|OODP\\OODP.csproj|c:\\users\\oskar\\documents\\github\\project_mt\\projekt 4 iradspel grupp 12\\oodp\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3AC102-FAEB-45F6-8E4A-5AA9A86830E3}|OODP\\OODP.csproj|solutionrelative:oodp\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3AC102-FAEB-45F6-8E4A-5AA9A86830E3}|OODP\\OODP.csproj|c:\\users\\oskar\\documents\\github\\project_mt\\projekt 4 iradspel grupp 12\\oodp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3AC102-FAEB-45F6-8E4A-5AA9A86830E3}|OODP\\OODP.csproj|solutionrelative:oodp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinimaxAI.cs",
+              "DocumentMoniker": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\Services\\MinimaxAI.cs",
+              "RelativeDocumentMoniker": "OODP\\Services\\MinimaxAI.cs",
+              "ToolTip": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\Services\\MinimaxAI.cs",
+              "RelativeToolTip": "OODP\\Services\\MinimaxAI.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:11:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\GameEngine.cs",
+              "RelativeDocumentMoniker": "OODP\\GameEngine.cs",
+              "ToolTip": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\GameEngine.cs",
+              "RelativeToolTip": "OODP\\GameEngine.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:10:56.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\Program.cs",
+              "RelativeDocumentMoniker": "OODP\\Program.cs",
+              "ToolTip": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\Program.cs",
+              "RelativeToolTip": "OODP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:34:22.849Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
