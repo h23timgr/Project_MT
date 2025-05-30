@@ -1,7 +1,9 @@
 ﻿using FourInARow;
 using OODP;
 using OODP.Interfaces;
-using System.DirectoryServices.ActiveDirectory;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
 
 public class GameEngine // Klass för Spelmotorn
 {
@@ -21,13 +23,12 @@ public class GameEngine // Klass för Spelmotorn
         bool isSinglePlayer, IUserInterface userInterface, IGameSaveService saveService) // Konstruktor
     {
         this.aiPlayer = aiPlayer;
+        this.soundPlayer = soundPlayer; // Använd det som skickas in!
         this.colorManager = colorManager;
         this.isSinglePlayer = isSinglePlayer;
         this.userInterface = userInterface;
         this.saveService = saveService;
         GameState = new GameState();
-        string winSoundFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Vinstljud1.wav");
-        this.soundPlayer = new SoundPlayerService(winSoundFilePath); // Använd filvägen här
     }
 
     public void MakeMove(int row, int col, bool isPlayer1, bool isLoadedGame = false) // Metod för att göra ett drag
@@ -105,11 +106,12 @@ public class GameEngine // Klass för Spelmotorn
             {
                 for (int col = 0; col < GameState.Columns; col++)
                 {
-                    updateCallback(row, col, Color.White); // Återställ cellens färg till vit (eller bakgrundsfärg)
+                    updateCallback(row, col, Color.Empty); // Återställ cellens färg till tom
                 }
             }
         }
     }
+
     public void UndoMove(Action<int, int, Color> updateCallback) // Metod för att ångra drag
     {
         if (moveHistory.Count > 0)
@@ -121,7 +123,7 @@ public class GameEngine // Klass för Spelmotorn
 
             GameState.RemoveMove(col);
             // Återställer brädet
-            updateCallback(row, col, Color.White); // Återställ knappen till vit
+            updateCallback(row, col, Color.Empty); // Återställ knappen till tom
             isPlayer1Turn = !isPlayer1Turn; // Återställ turordningen
         }
         else

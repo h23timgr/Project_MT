@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
+      "projectUniqueName": "C:\\Users\\oskar\\Desktop\\Mjukvarutesting\\MT Labb 1\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
       "projectName": "OODP",
-      "projectPath": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
+      "projectPath": "C:\\Users\\oskar\\Desktop\\Mjukvarutesting\\MT Labb 1\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
       "packagesPath": "C:\\Users\\oskar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\obj\\",
+      "outputPath": "C:\\Users\\oskar\\Desktop\\Mjukvarutesting\\MT Labb 1\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
