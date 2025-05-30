@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6uhtQ5D4MAs=",
+  "dgSpecHash": "ZUZSR4uhuig=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oskar\\Desktop\\Mjukvarutesting\\MT Labb 1\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
+  "projectFilePath": "C:\\Users\\Tim\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\oskar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Tim\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

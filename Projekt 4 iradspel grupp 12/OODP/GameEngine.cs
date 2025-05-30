@@ -7,14 +7,14 @@ using System.Drawing;
 
 public class GameEngine // Klass för Spelmotorn
 {
-    private readonly IAIPlayer aiPlayer;
-    private readonly ISoundPlayer soundPlayer;
-    private readonly IColorManager colorManager;
-    private readonly IUserInterface userInterface;
-    private readonly IGameSaveService saveService;
-    private bool isSinglePlayer;
-    private bool isPlayer1Turn = true;
-    private Stack<Tuple<int, int, bool>> moveHistory = new Stack<Tuple<int, int, bool>>();
+    public readonly IAIPlayer aiPlayer;
+    public readonly ISoundPlayer soundPlayer;
+    public readonly IColorManager colorManager;
+    public readonly IUserInterface userInterface;
+    public readonly IGameSaveService saveService;
+    public bool isSinglePlayer;
+    public bool isPlayer1Turn = true;
+    public Stack<Tuple<int, int, bool>> moveHistory = new Stack<Tuple<int, int, bool>>();
 
     public GameState GameState { get; private set; } // Egenskap för spelets tillstånd
     public event Action<int, int, Color> MoveMade;
@@ -71,7 +71,7 @@ public class GameEngine // Klass för Spelmotorn
         }
     }
 
-    private void MakeAIMove() // Metod för att låta AI göra ett drag
+    public void MakeAIMove() // Metod för att låta AI göra ett drag
     {
         int col = aiPlayer.ChooseMove(GameState);
         MakeMove(0, col, false); // Kalla MakeMove med AI:s val
@@ -92,7 +92,7 @@ public class GameEngine // Klass för Spelmotorn
         }
     }
 
-    private void ResetGame(Action<int, int, Color> updateCallback = null) // Metod för att återställa spelet
+    public void ResetGame(Action<int, int, Color> updateCallback = null) // Metod för att återställa spelet
     {
         // Återställ spelets logiska tillstånd
         GameState.ResetBoard();
