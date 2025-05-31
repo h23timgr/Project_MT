@@ -8,10 +8,12 @@ using OODP.Interfaces;
 public class GameSaveService : IGameSaveService // Implementerar gränssnittet IGameSaveService
 {
     private readonly ILoggerService logger;
+    private readonly IFileService fileService;
 
-    public GameSaveService(ILoggerService logger) // Konstruktor som tar ett ILoggerService-objekt som parameter
+    public GameSaveService(ILoggerService logger, IFileService fileService) // Konstruktor som tar ett ILoggerService-objekt som parameter
     {
         this.logger = logger;
+        this.fileService = fileService;
     }
 
     public void SaveGame(string filePath, Stack<Tuple<int, int, bool>> moveHistory) // Sparar spelet till en fil
@@ -21,7 +23,7 @@ public class GameSaveService : IGameSaveService // Implementerar gränssnittet I
             var moves = new List<Tuple<int, int, bool>>(moveHistory);
             moves.Reverse();
             var gameData = JsonConvert.SerializeObject(moves);
-            File.WriteAllText(filePath, gameData);
+            fileService.WriteAllText(filePath, gameData);
             logger.Log($"Filen sparades i: {filePath}");
         }
         catch (Exception ex)
@@ -34,8 +36,8 @@ public class GameSaveService : IGameSaveService // Implementerar gränssnittet I
     {
         try
         {
-            if (!File.Exists(filePath)) throw new FileNotFoundException("Filen hittades ej.");
-            string gameData = File.ReadAllText(filePath);
+            if (!fileService.Exists(filePath)) throw new FileNotFoundException("Filen hittades ej.");
+            string gameData = fileService.ReadAllText(filePath);
             var moves = JsonConvert.DeserializeObject<List<Tuple<int, int, bool>>>(gameData);
             if (moves == null) throw new InvalidDataException("Ogiltigt format.");
             return moves;

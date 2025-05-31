@@ -3,6 +3,7 @@ using OODP;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using OODP.Services;
 
 namespace FourInARow
 {
@@ -31,7 +32,8 @@ namespace FourInARow
         {
             IUserInterface userInterface = new UserInterface();
             ILoggerService logger = new LoggerService();
-            IGameSaveService saveService = new GameSaveService(logger);
+            IFileService fileService = new FileService();
+            IGameSaveService saveService = new GameSaveService(logger, fileService);
             GameEngine = new GameEngine(aiPlayer, soundPlayer, colorManager, isSinglePlayer, userInterface, saveService);
             GameEngine.MoveMade += UpdateButton;
         }
