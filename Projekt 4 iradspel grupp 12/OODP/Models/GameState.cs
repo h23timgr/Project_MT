@@ -7,10 +7,10 @@ namespace FourInARow
     {
         public int Rows { get; private set; } = 6;
         public int Columns { get; private set; } = 7;
-        private readonly Color[,] board;
-        private readonly int[] columnHeight;
-        private Color aiColor;
-        private Color humanColor;
+        public readonly Color[,] board;
+        public readonly int[] columnHeight;
+        public Color aiColor;
+        public Color humanColor;
 
         public GameState() // Konstruktor för att skapa ett nytt GameState-objekt
         {

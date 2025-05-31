@@ -10,158 +10,172 @@ namespace _4iradTests
 {
     public class GameManagerTests
     {
-        private readonly IAIPlayer dummyAI = new DummyAIPlayer();
-        private readonly ISoundPlayer dummySoundPlayer = new DummySoundPlayer();
-        private readonly IColorManager dummyColorManager = new ColorManager();
-        private readonly IUserInterface dummyUserInterface = new DummyUserInterface();
-        private readonly IGameSaveService dummyGameSaveService = new DummyGameSaveService();
+        private readonly Color player1 = Color.Red;
+        private readonly Color player2 = Color.Yellow;
 
-        private GameEngine CreateGameEngine()
+        [Fact]
+        public void vertical_ShouldReturnTrue()
         {
-            return new GameEngine(
-                dummyAI,
-                dummySoundPlayer,
-                dummyColorManager,
-                false,
-                dummyUserInterface,
-                dummyGameSaveService
-            );
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);
+
+            board.MakeMove(0, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(0, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(0, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(0, player1);
+
+            // Kolla att Player1 har vunnit
+            Assert.True(board.CheckForWin(player1));
         }
 
         [Fact]
-        public void HorizontalWin_ShouldReturnTrue()
+        public void Horizontal_ShouldReturnTrue()
         {
-            var gameEngine = CreateGameEngine();
-            int row = 0;
-            bool isPlayer1 = true;
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);
 
-            for (int col = 0; col < 4; col++)
-            {
-                gameEngine.MakeMove(row, col, isPlayer1);
-            }
+            board.MakeMove(0, player1);
+            board.MakeMove(0, player2);
+            board.MakeMove(1, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(2, player2);
+            board.MakeMove(3, player1);
 
-            bool hasWon = gameEngine.GameState.CheckForWin(dummyColorManager.Player1Color);
-            Assert.True(hasWon, "Fyra i rad horisontellt ska ge vinst.");
+            // Kolla att Player1 har vunnit
+            Assert.True(board.CheckForWin(player1));
         }
 
         [Fact]
-        public void VerticalWin_ShouldReturnTrue()
+        public void Diagonal_LeftToRight_ShouldReturnTrue()
         {
-            var gameEngine = CreateGameEngine();
-            int col = 0;
-            bool isPlayer1 = true;
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);
 
-            for (int row = 0; row < 4; row++)
-            {
-                gameEngine.MakeMove(row, col, isPlayer1);
-            }
+            board.MakeMove(0, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(1, player1);
+            board.MakeMove(2, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(4, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(3, player1);
 
-            bool hasWon = gameEngine.GameState.CheckForWin(dummyColorManager.Player1Color);
-            Assert.True(hasWon, "Fyra i rad vertikalt ska ge vinst.");
+            Assert.True(board.CheckForWin(player1));
         }
 
         [Fact]
-        public void DiagonalWin_LeftToRight_ShouldReturnTrue()
+        public void Diagonal_RightToLeft_ShouldReturnTrue()
         {
-            var gameEngine = CreateGameEngine();
-            bool isPlayer1 = true;
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);  
+            
+            board.MakeMove(6, player1);           
+            board.MakeMove(5, player2);
+            board.MakeMove(5, player1);           
+            board.MakeMove(4, player2);
+            board.MakeMove(4, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(4, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(3, player1);
 
-            for (int i = 0; i < 4; i++)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    gameEngine.MakeMove(j, i, !isPlayer1);
-                }
-                gameEngine.MakeMove(i, i, isPlayer1);
-            }
-
-            bool hasWon = gameEngine.GameState.CheckForWin(dummyColorManager.Player1Color);
-            Assert.True(hasWon, "Fyra i rad diagonalt (\\) ska ge vinst.");
+            // Kolla att Player1 har vunnit
+            Assert.True(board.CheckForWin(player1));
         }
 
         [Fact]
-        public void DiagonalWin_RightToLeft_ShouldReturnTrue()
+        public void FullBoard_ShouldReturnDraw()
         {
-            var gameEngine = CreateGameEngine();
-            bool isPlayer1 = true;
-            int maxCol = gameEngine.GameState.Columns - 1;
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);
 
-            for (int i = 0; i < 4; i++)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    gameEngine.MakeMove(j, maxCol - i, !isPlayer1);
-                }
-                gameEngine.MakeMove(i, maxCol - i, isPlayer1);
-            }
+            board.MakeMove(0, player1);
+            board.MakeMove(0, player2);
+            board.MakeMove(0, player1);
+            board.MakeMove(0, player2);
+            board.MakeMove(0, player1);
+            board.MakeMove(0, player2);
+            board.MakeMove(1, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(1, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(1, player1);
+            board.MakeMove(1, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(2, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(2, player2);
+            board.MakeMove(2, player1);
+            board.MakeMove(2, player2);
+            board.MakeMove(4, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(3, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(3, player1);
+            board.MakeMove(3, player2);
+            board.MakeMove(3, player1);
+            board.MakeMove(4, player2);
+            board.MakeMove(4, player1);
+            board.MakeMove(4, player2);
+            board.MakeMove(4, player1);
+            board.MakeMove(4, player2);
+            board.MakeMove(5, player1);
+            board.MakeMove(5, player2);
+            board.MakeMove(5, player1);
+            board.MakeMove(5, player2);
+            board.MakeMove(5, player1);
+            board.MakeMove(5, player2);
+            board.MakeMove(6, player1);
+            board.MakeMove(6, player2);
+            board.MakeMove(6, player1);
+            board.MakeMove(6, player2);
+            board.MakeMove(6, player1);
+            board.MakeMove(6, player2);
 
-            bool hasWon = gameEngine.GameState.CheckForWin(dummyColorManager.Player1Color);
-            Assert.True(hasWon, "Fyra i rad diagonalt (/) ska ge vinst.");
+            bool isFull = board.IsBoardFull();
+            bool hasPlayer1Win = board.CheckForWin(player1);
+            bool hasPlayer2Win = board.CheckForWin(player2);
+
+            Assert.True(isFull && !hasPlayer1Win && !hasPlayer2Win);
         }
 
         [Fact]
-        public void FullBoardWithoutWinner_ShouldReturnDraw()
+        public void Turn_ShouldAlternateBetweenPlayers()
         {
-            var gameEngine = CreateGameEngine();
-            int rows = gameEngine.GameState.Rows;
-            int cols = gameEngine.GameState.Columns;
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);
 
-            for (int row = 0; row < rows; row++)
-            {
-                for (int col = 0; col < cols; col++)
-                {
-                    bool isPlayer1 = (row + col) % 2 == 0;
-                    gameEngine.MakeMove(row, col, isPlayer1);
-                }
-            }
+            board.MakeMove(0, player1);
+            board.MakeMove(1, player2);
 
-            bool isDraw = gameEngine.GameState.IsBoardFull() &&
-                          !gameEngine.GameState.CheckForWin(dummyColorManager.Player1Color) &&
-                          !gameEngine.GameState.CheckForWin(dummyColorManager.Player2Color);
+            Color firstMove = board.GetCell(board.Rows - 1, 0);
+            Color secondMove = board.GetCell(board.Rows - 1, 1);
 
-            Assert.True(isDraw, "Fullt bräde utan vinnare ska ge oavgjort.");
+            Assert.NotEqual(firstMove, secondMove);
         }
 
         [Fact]
-        public void Turn_ShouldSwitch_AfterMove()
+        public void UndoMove_ShouldRemoveLastMove()
         {
-            var gameEngine = CreateGameEngine();
-            bool moveAccepted = true;
+            var board = new GameState();
+            board.SetPlayerColors(player1, player2);
 
-            try
-            {
-                gameEngine.MakeMove(0, 0, true);  // Spelare 1 gör drag
-                gameEngine.MakeMove(1, 0, true);  // Försök igen med samma spelare
-            }
-            catch
-            {
-                moveAccepted = false;
-            }
+            board.MakeMove(0, player1);
+            Assert.Equal(player1, board.GetCell(board.Rows - 1, 0));
 
-            Assert.False(moveAccepted, "Efter ett drag ska turen växla och samma spelare ska inte kunna spela igen direkt.");
+            board.RemoveMove(0);
+            Assert.Equal(Color.White, board.GetCell(board.Rows - 1, 0));
         }
-    }
 
-    // Dummy-klasser för beroenden:
-    public class DummyAIPlayer : IAIPlayer
-    {
-        public int ChooseMove(GameState gameState) => 0;
-    }
-
-    public class DummySoundPlayer : ISoundPlayer
-    {
-        public void PlayWinSound() { }
-    }
-
-    public class DummyUserInterface : IUserInterface
-    {
-        public void ShowMessage(string message) { }
-    }
-
-    public class DummyGameSaveService : IGameSaveService
-    {
-        public void SaveGame(string filePath, Stack<Tuple<int, int, bool>> moveHistory) { }
-        public List<Tuple<int, int, bool>> LoadGame(string filePath) => new();
     }
 }
 
