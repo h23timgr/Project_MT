@@ -144,6 +144,46 @@ namespace _4iradTests
             fileServiceMock.Verify(fs => fs.WriteAllText(filePath, It.IsAny<string>()), Times.Exactly(2));
         }
 
+        [Fact]
+        public void SaveGame_ShouldLogError_WhenWriteFails()
+        {
+            var loggerMock = new Mock<ILoggerService>();
+            var fileServiceMock = new Mock<IFileService>();
+            fileServiceMock
+                .Setup(fs => fs.WriteAllText(It.IsAny<string>(), It.IsAny<string>()))
+                .Throws(new IOException("Diskfel!"));
+
+            var saveService = new GameSaveService(loggerMock.Object, fileServiceMock.Object);
+            var moves = new Stack<Tuple<int, int, bool>>();
+
+            // Act
+            saveService.SaveGame("dummy.json", moves);
+
+            // Assert
+            loggerMock.Verify(l => l.Log(It.Is<string>(s => s.Contains("Error i spelsparning"))), Times.Once);
+        }
+
+        [Fact]
+        public void LoadGame_ShouldLogError_WhenReadFails()
+        {
+            var loggerMock = new Mock<ILoggerService>();
+            var fileServiceMock = new Mock<IFileService>();
+            fileServiceMock.Setup(fs => fs.Exists(It.IsAny<string>())).Returns(true);
+            fileServiceMock
+                .Setup(fs => fs.ReadAllText(It.IsAny<string>()))
+                .Throws(new IOException("Diskfel!"));
+
+            var saveService = new GameSaveService(loggerMock.Object, fileServiceMock.Object);
+
+            // Act
+            var result = saveService.LoadGame("dummy.json");
+
+            // Assert
+            Assert.Empty(result);
+            loggerMock.Verify(l => l.Log(It.Is<string>(s => s.Contains("Error för att ladda spel"))), Times.Once);
+        }
+
+
         //Dummy Logger
         public class DummyLoggerService : ILoggerService
         {

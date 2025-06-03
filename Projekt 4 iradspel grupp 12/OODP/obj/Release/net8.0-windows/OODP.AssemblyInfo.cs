@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OODP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa5e8bbec04531abe8c743225a958b5c9e5b8ada")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0605d6f5d72b507e6670a59287d17af20168f6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OODP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OODP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

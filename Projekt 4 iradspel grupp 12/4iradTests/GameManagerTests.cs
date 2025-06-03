@@ -176,6 +176,65 @@ namespace _4iradTests
             Assert.Equal(Color.White, board.GetCell(board.Rows - 1, 0));
         }
 
+        [Fact]
+        public void UndoMove_ShouldShowMessage_WhenNoMovesAvailable()
+        {
+            // Arrange
+            var gameEngine = new GameEngine(
+                new DummyAIPlayer(),
+                new DummySoundPlayer(),
+                new DummyColorManager(),
+                false,
+                new DummyUserInterface(),
+                new DummyGameSaveService());
+
+            // Act
+            gameEngine.UndoMove((row, col, color) => { });
+
+            // Assert
+            var dummyUI = (DummyUserInterface)gameEngine.userInterface;
+            Assert.Equal("Finns inga drag kvar att ångra.", dummyUI.LastMessage);
+        }
+
+        // Dummys för beroenden:
+        private class DummyAIPlayer : IAIPlayer
+        {
+            public int ChooseMove(GameState gameState) => 0;
+        }
+
+        private class DummySoundPlayer : ISoundPlayer
+        {
+            public void PlayWinSound() { }
+        }
+
+        private class DummyColorManager : IColorManager
+        {
+            public Color Player1Color => Color.Red;
+            public Color Player2Color => Color.Yellow;
+            public Color BoardColor => Color.White;
+
+            public void ChooseColors()
+            {
+            }
+
+            public Color SelectColor(string prompt, Color defaultColor)
+            {
+                return defaultColor;
+            }
+        }
+
+        private class DummyUserInterface : IUserInterface
+        {
+            public string LastMessage { get; private set; }
+            public void ShowMessage(string message) => LastMessage = message;
+        }
+
+        private class DummyGameSaveService : IGameSaveService
+        {
+            public void SaveGame(string filePath, Stack<Tuple<int, int, bool>> moveHistory) { }
+            public List<Tuple<int, int, bool>> LoadGame(string filePath) => new();
+        }
+
     }
 }
 

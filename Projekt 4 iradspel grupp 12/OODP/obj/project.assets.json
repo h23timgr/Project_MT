@@ -55,23 +55,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oskar\\.nuget\\packages\\": {},
+    "C:\\Users\\Tim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
+      "projectUniqueName": "C:\\Users\\Tim\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
       "projectName": "OODP",
-      "projectPath": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
-      "packagesPath": "C:\\Users\\oskar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oskar\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\obj\\",
+      "projectPath": "C:\\Users\\Tim\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\OODP.csproj",
+      "packagesPath": "C:\\Users\\Tim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tim\\Documents\\GitHub\\Project_MT\\Projekt 4 iradspel grupp 12\\OODP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\oskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
