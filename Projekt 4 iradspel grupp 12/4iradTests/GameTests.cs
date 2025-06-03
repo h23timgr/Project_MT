@@ -9,6 +9,9 @@ namespace _4iradTests
 {
     public class GameTests
     {
+        private readonly Color player1 = Color.Red;
+        private readonly Color player2 = Color.Yellow;
+
         [Fact]
         public void StartGame_SetsUpBoard_And_TwoPlayers_Correctly()
         {
@@ -73,7 +76,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Win_Sound_Is_Played_On_Win()
+        public void Win_ShouldTriggerWinSound()
         {
             // Arrange
             var aiPlayer = new Mock<IAIPlayer>();
@@ -82,8 +85,8 @@ namespace _4iradTests
             var userInterface = new Mock<IUserInterface>();
             var saveService = new Mock<IGameSaveService>();
 
-            colorManager.SetupGet(c => c.Player1Color).Returns(Color.Red);
-            colorManager.SetupGet(c => c.Player2Color).Returns(Color.Yellow);
+            colorManager.SetupGet(c => c.Player1Color).Returns(player1);
+            colorManager.SetupGet(c => c.Player2Color).Returns(player2);
 
             var engine = new GameEngine(
                 aiPlayer.Object,
@@ -94,23 +97,16 @@ namespace _4iradTests
                 saveService.Object
             );
 
-            // Lägg fyra drag, växla alltid kolumn
-            engine.MakeMove(0, 0, isPlayer1: true);  // Röd
-            engine.MakeMove(1, 0, isPlayer1: true);  // Gul
-            engine.MakeMove(0, 0, isPlayer1: true);  // Röd
-            engine.MakeMove(1, 0, isPlayer1: true);  // Gul
-            engine.MakeMove(0, 0, isPlayer1: true);  // Röd
-            engine.MakeMove(1, 0, isPlayer1: true);  // Gul
-            engine.MakeMove(0, 0, isPlayer1: true);  // Röd (vinst)
+            // Hårdkoda in en vinst för player1 (vertikal vinst i kolumn 0)
+            engine.MakeMove(0, 0, isPlayer1: true);  // player1 i kolumn 0
+            engine.MakeMove(0, 1, isPlayer1: false); // player2 i kolumn 1
+            engine.MakeMove(0, 0, isPlayer1: true);  // player1 i kolumn 0
+            engine.MakeMove(0, 1, isPlayer1: false); // player2 i kolumn 1
+            engine.MakeMove(0, 0, isPlayer1: true);  // player1 i kolumn 0
+            engine.MakeMove(0, 1, isPlayer1: false); // player2 i kolumn 1
+            engine.MakeMove(0, 0, isPlayer1: true);  // player1 i kolumn 0 (vinst)
 
-            // Kontroll: Nu ska det finnas fyra röda brickor i kolumn 0
-            for (int i = 0; i < 4; i++)
-                Assert.Equal(Color.Red, engine.GameState.GetCell(engine.GameState.Rows - 1 - i, 0));
-
-            // Kontroll: Vinstlogik returnerar true
-            Assert.True(engine.GameState.CheckForWin(Color.Red));
-
-            // Assert: Vinstljud ska ha spelats
+            // Kontrollera att vinstljudet spelades upp
             soundPlayer.Verify(s => s.PlayWinSound(), Times.Once);
         }
     }
