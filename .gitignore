@@ -18,3 +18,5 @@
 Projekt 4 iradspel grupp 12/OODP/obj/Debug/net8.0-windows/OODP.GeneratedMSBuildEditorConfig.editorconfig
 *.db-shm
 *.db-wal
+/Projekt 4 iradspel grupp 12/4iradTests/ErrorTests.cs
+/Projekt 4 iradspel grupp 12/4iradTests/ErrorTests.cs
