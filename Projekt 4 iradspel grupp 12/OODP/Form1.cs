@@ -153,7 +153,15 @@ namespace FourInARow
         {
             if (grid != null && row >= 0 && row < GameEngine.GameState.Rows && col >= 0 && col < GameEngine.GameState.Columns)
             {
-                grid[row, col].BackColor = color;
+                if (color == Color.Empty)
+                {
+                    // Sätt till tom cell — t.ex. vit bakgrund
+                    grid[row, col].BackColor = Color.White;
+                }
+                else
+                {
+                    grid[row, col].BackColor = color;
+                }
             }
         }
 

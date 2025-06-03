@@ -1,48 +1,58 @@
 ﻿using FourInARow;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 
-public class ColorManager : IColorManager // Klass för färgval
+public class ColorManager : IColorManager
 {
     public Color Player1Color { get; private set; }
     public Color Player2Color { get; private set; }
     public Color BoardColor { get; private set; }
 
-    public ColorManager() // Konstruktor
+    public ColorManager()
     {
         Player1Color = Color.Red;
         Player2Color = Color.Yellow;
         BoardColor = Color.White;
     }
 
-    public void ChooseColors() // Metod för att välja färger för spelarna och spelbrädet
+    // Produktionsversionen (med MessageBox)
+    public void ChooseColors()
     {
         bool colorsAreValid = false;
 
-        // Upprepa tills olika färger är valda för spelarna
         while (!colorsAreValid)
         {
-            // Låter användaren välja färger för båda spelarna
-            Player1Color = SelectColor("Färgval för Spelare1: ", Player1Color);
-            Player2Color = SelectColor("Färgval för Spelare 2: ", Player2Color);
-
-            // Kontrollera om spelarna har valt samma färg
-            if (Player1Color == Player2Color)
+            try
             {
-                // Visa ett felmeddelande om färgerna är desamma
-                MessageBox.Show("Spelare 1 och Spelare 2 kan inte ha samma färg. Välj olika färger.",
-                                "Fel", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ChooseColors(SelectColor);
+                colorsAreValid = true;
             }
-            else
+            catch (InvalidOperationException ex)
             {
-                colorsAreValid = true; // Färgerna är giltiga om de är olika
+                MessageBox.Show(ex.Message, "Fel", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        BoardColor = SelectColor("Färgval på Spelbrädet: ", BoardColor);
     }
-    public Color SelectColor(string prompt, Color defaultColor) // Metod för att fråga spelaren om att välja en färg
+
+    public void ChooseColors(Func<string, Color, Color> colorSelector)
     {
-        // Fråga om användaren vill välja en egen färg eller använda en standardfärg
-        DialogResult result = MessageBox.Show(prompt + " Vill du välja en egen färg?",
-                                              "Välj färg", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        Player1Color = colorSelector("Färgval för Spelare1:", Player1Color);
+        Player2Color = colorSelector("Färgval för Spelare2:", Player2Color);
+
+        if (Player1Color == Player2Color)
+        {
+            throw new InvalidOperationException("Spelare 1 och Spelare 2 kan inte ha samma färg.");
+        }
+
+        BoardColor = colorSelector("Färgval på Spelbrädet:", BoardColor);
+    }
+
+    public Color SelectColor(string prompt, Color defaultColor)
+    {
+        DialogResult result = MessageBox.Show(
+            prompt + " Vill du välja en egen färg?",
+            "Välj färg", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
         if (result == DialogResult.Yes)
         {
@@ -59,7 +69,6 @@ public class ColorManager : IColorManager // Klass för färgval
             }
         }
 
-        // Om användaren väljer "No", returnera den förvalda standardfärgen
         return defaultColor;
     }
 }
