@@ -13,7 +13,7 @@ namespace _4iradTests
         private readonly Color player2 = Color.Yellow;
 
         [Fact]
-        public void StartGame_SetsUpBoard_And_TwoPlayers_Correctly()
+        public void StartGameSetsUpCorrectly()
         {
             // Arrange
             var aiPlayer = new Mock<IAIPlayer>();
@@ -46,7 +46,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Game_Starts_With_Correct_Active_Player()
+        public void GameStartsCorrectActivePlayer()
         {
             // Arrange
             var aiPlayer = new Mock<IAIPlayer>();
@@ -76,7 +76,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Win_ShouldTriggerWinSound()
+        public void WinTriggerWinSound()
         {
             // Arrange
             var aiPlayer = new Mock<IAIPlayer>();

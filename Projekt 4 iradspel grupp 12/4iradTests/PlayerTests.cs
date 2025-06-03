@@ -7,7 +7,7 @@ namespace _4iradTests
     public class PlayerTests
     {
         [Fact]
-        public void Constructor_ShouldSetDefaultColors()
+        public void ConstructorSetDefaultColors()
         {
             var colorManager = new ColorManager();
 
@@ -17,7 +17,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void ChooseColors_ShouldSetDifferentColors()
+        public void ChooseColorsSetDifferentColors()
         {
             var colorManager = new ColorManager();
 
@@ -39,7 +39,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void ChooseColors_ShouldThrowException_IfSameColorsSelected()
+        public void ChooseColorsThrowExceptionSameColorsSelected()
         {
             var colorManager = new ColorManager();
 

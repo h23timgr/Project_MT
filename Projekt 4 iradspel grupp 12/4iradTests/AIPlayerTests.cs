@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using Xunit;
 using FourInARow;
-using OODP; // Om MinimaxAI ligger här
+using OODP;
 
 namespace _4iradTests
 {
@@ -13,7 +13,7 @@ namespace _4iradTests
         private MinimaxAI CreateAI() => new MinimaxAI(4, aiColor, humanColor);
 
         [Fact]
-        public void AI_Always_Returns_Valid_Column()
+        public void AIPlaysVaildColumn()
         {
             var board = new GameState();
             board.SetPlayerColors(aiColor, humanColor);
@@ -25,7 +25,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void AI_Picks_Only_Available_Column()
+        public void AIPlaysAvailableColumn()
         {
             var board = new GameState();
             board.SetPlayerColors(aiColor, humanColor);
@@ -41,7 +41,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void AI_Blocks_Player_Winning_Move()
+        public void AIBlocksWinningMove()
         {
             var board = new GameState();
             board.SetPlayerColors(aiColor, humanColor);
@@ -62,7 +62,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void AI_Makes_Winning_Move()
+        public void AIMakesWinningMove()
         {
             var board = new GameState();
             board.SetPlayerColors(aiColor, humanColor);

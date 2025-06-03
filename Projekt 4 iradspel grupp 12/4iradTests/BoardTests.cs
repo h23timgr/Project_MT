@@ -10,7 +10,7 @@ namespace _4iradTests
         private readonly Color player2 = Color.Yellow;
 
         [Fact]
-        public void Piece_Should_Land_On_First_Available_Row()
+        public void PieceLandsOnFirstAvailableRow()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -25,7 +25,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Should_Not_Allow_Placement_In_Full_Column()
+        public void ShouldNotAllowPlacementFullColumn()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -41,7 +41,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void IsValidMove_Should_Return_False_If_Column_Is_Full()
+        public void IsValidMoveReturnFalseColumnFull()
         {
             var board = new GameState();
             for (int i = 0; i < board.Rows; i++)
@@ -51,14 +51,14 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void IsValidMove_Should_Return_True_If_Column_Is_Empty()
+        public void IsValidMoveReturnTrueColumnEmpty()
         {
             var board = new GameState();
             Assert.True(board.IsValidMove(2));
         }
 
         [Fact]
-        public void ResetBoard_Should_Clear_The_Board()
+        public void ResetBoardClearBoard()
         {
             var board = new GameState();
             board.MakeMove(0, player1);
@@ -72,7 +72,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void GetCell_Should_Return_Correct_Piece()
+        public void GetCellReturnCorrectPiece()
         {
             var board = new GameState();
             board.MakeMove(3, player2);
@@ -81,7 +81,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Color_Selection_On_Board()
+        public void ColorSelectionBoard()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);

@@ -20,7 +20,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void SaveGame_ShouldCreateValidJsonFile()
+        public void SaveGameCreateValidJsonFile()
         {
             //Arrange
             var logger = new DummyLoggerService();
@@ -37,7 +37,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void SaveGame_ShouldContainCorrectData()
+        public void SaveGameContainCorrectData()
         {
             //Arrange
             var logger = new DummyLoggerService();
@@ -62,7 +62,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void LoadGame_ShouldLoadSameGameState()
+        public void LoadGameLoadSameGameState()
         {
             //Arrange
             var logger = new DummyLoggerService();
@@ -88,7 +88,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void LoadGame_WithCorruptFile_ShouldReturnEmptyList()
+        public void LoadGameCorruptFileReturnEmptyList()
         {
             //Arrange
             var logger = new DummyLoggerService();
@@ -108,7 +108,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void LoadGame_FileNotFound_ShouldReturnEmptyList()
+        public void LoadGameFileNotFoundReturnEmptyList()
         {
             //Arrange
             var logger = new DummyLoggerService();
@@ -127,7 +127,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void SaveGame_ShouldOverwriteExistingFile()
+        public void SaveGameOverwriteExistingFile()
         {
             //Arrange
             var logger = new DummyLoggerService();
@@ -145,7 +145,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void SaveGame_ShouldLogError_WhenWriteFails()
+        public void SaveGameLogErrorWriteFails()
         {
             var loggerMock = new Mock<ILoggerService>();
             var fileServiceMock = new Mock<IFileService>();
@@ -164,7 +164,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void LoadGame_ShouldLogError_WhenReadFails()
+        public void LoadGameLogErrorReadFails()
         {
             var loggerMock = new Mock<ILoggerService>();
             var fileServiceMock = new Mock<IFileService>();

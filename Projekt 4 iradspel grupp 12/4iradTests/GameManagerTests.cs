@@ -14,7 +14,7 @@ namespace _4iradTests
         private readonly Color player2 = Color.Yellow;
 
         [Fact]
-        public void vertical_ShouldReturnTrue()
+        public void verticalShouldReturnTrue()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -32,7 +32,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Horizontal_ShouldReturnTrue()
+        public void HorizontalShouldReturnTrue()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -50,7 +50,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Diagonal_LeftToRight_ShouldReturnTrue()
+        public void DiagonalLTRReturnTrue()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -71,7 +71,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Diagonal_RightToLeft_ShouldReturnTrue()
+        public void DiagonalRTLReturnTrue()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);  
@@ -93,7 +93,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void FullBoard_ShouldReturnDraw()
+        public void FullBoardReturnDraw()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -149,7 +149,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void Turn_ShouldAlternateBetweenPlayers()
+        public void TurnAlternateBetweenPlayers()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -164,7 +164,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void UndoMove_ShouldRemoveLastMove()
+        public void UndoMoveRemoveLastMove()
         {
             var board = new GameState();
             board.SetPlayerColors(player1, player2);
@@ -177,7 +177,7 @@ namespace _4iradTests
         }
 
         [Fact]
-        public void UndoMove_ShouldShowMessage_WhenNoMovesAvailable()
+        public void UndoMoveShowMessageNoMoves()
         {
             // Arrange
             var gameEngine = new GameEngine(
